@@ -11,8 +11,6 @@ sns.set(style="whitegrid")
 warnings.filterwarnings('ignore')
 pd.set_option('display.max_columns', 100)
 
-from google.colab import drive
-drive.mount('/content/drive')
 
 trainpath='/content/drive/MyDrive/Colab Notebooks/Kaggle/Credit Card Fraud Analysis/元データ/train.csv'
 testpath='/content/drive/MyDrive/Colab Notebooks/Kaggle/Credit Card Fraud Analysis/元データ/test.csv'
